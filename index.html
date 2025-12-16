@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karta produktu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="product_card">
+        <header>
+            <h1>The East Face</h1>
+            <h2>Kurtka polarowa 3 w 1<br> 
+                zimowa damska z kapturem</h2>
+        </header>
+        <div class="product_card_info">
+            <section class="product_image">
+                <img src="assets/img_first.png" alt="kurtka polarowa damska z kapturem" id="img_first">
+                <img src="assets/img_second.png" alt="kurtka polarowa damska z kapturem" id="img_second">
+                <img src="assets/img_third.png" alt="kurtka polarowa damska z kapturem" id="img_third">
+                <img src="assets/img_fourth.png" alt="kurtka polarowa damska z kapturem" id="img_fourth">
+            </section>
+            <section class="info">
+                <p>KOLOR:</p>
+                <div class="color">
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                </div>
+
+                    <p>ROZMIAR:</p>
+                    <div class="size_element">
+                        <p class="size">S</p>
+                        <p class="size">M</p>
+                        <p class="size out_of_stock">L</p>
+                        <p class="size">XL</p>
+                    </div>
+                    <div class="availability">
+                        <p>Powiadom mnie o dostępności: (rozmiar L) </p>
+                       <form>
+                            <input type="email" placeholder="podaj email">
+                            <input class="btn_availability" type="submit" value="zapisz">
+                       </form>
+                    </div>
+                <div class="num">
+                    <p>ILOŚĆ: <span id="number">1</span></p>
+                    <div class="buttons">
+                        <p id="add">+</p>
+                        <p id="sub">-</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <p class="old_price">650 zł</p>
+                    <p class="price_info">Najniższa cena 30 dni przed obniżką: 550 zł</p>
+                    <p class="current_price">CENA: 350 zł</p>
+                </div>
+                <input type="submit" value="DODAJ DO KOSZYKA" class="btn_confirm" id="confirm_btn">
+            </section>
+        </div>
+    </section>
+</body>
+
+</html>
