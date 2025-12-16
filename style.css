@@ -43,7 +43,7 @@ img {
 #img_fourth {
     display: none;
 }
-.color {
+.color_element {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +54,7 @@ img {
     width: 40px;
     height: 40px;
     cursor: pointer;
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 2px solid black;
 }
 
 .color_box:nth-child(2) {
@@ -72,6 +72,9 @@ img {
     flex-direction: row;
     gap: 6px;
     justify-content: center;
+    font-family: "Poppins";
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .size, #add, #sub {
@@ -82,7 +85,8 @@ img {
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    cursor: pointer;    
+    cursor: pointer;  
+    background-color: white;       
 }
 
 .out_of_stock {
@@ -101,10 +105,10 @@ img {
     transform: rotate(45deg);
 }
 
-
-.size_element p:not(.out_of_stock):hover {
+.size:not(.out_of_stock):hover {
     transform: scale(2);
     border: none;
+    background-color: transparent;
 }
 
 .btn_availability, input  {
@@ -140,6 +144,7 @@ img {
 .btn_confirm:hover {
     background-color: black;
     color: white;
+    border-color: white;
     cursor: pointer;
 }
 
@@ -179,7 +184,6 @@ img {
     }
     .availability p, .price_info {
         width: 100%;
-        margin-bottom: 15px;
     }
 }
 
