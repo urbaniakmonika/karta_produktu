@@ -43,6 +43,7 @@ h2 {
 
 img {
     width: 200px;
+    margin: auto;
 }
 
 #img_second {
@@ -69,13 +70,16 @@ img {
 }
 
 .color_box:nth-child(2) {
-    background-color: #2C2C2C;
+    background-color: #B28077;    
 }
 .color_box:nth-child(3) {
-    background-color: #E3DED8;
+    background-color: #2C2C2C;
 }
 .color_box:nth-child(4) {
-    background-color: #B28077;
+    background-color: #E3DED8;
+}
+.color_box.active {
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .size_element {
